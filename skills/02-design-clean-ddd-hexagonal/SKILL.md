@@ -1,4 +1,4 @@
----
+﻿---
 name: clean-ddd-hexagonal
 description: Proactively apply when designing APIs, microservices, or scalable backend structure. Triggers on DDD, Clean Architecture, Hexagonal, ports and adapters, entities, value objects, domain events, CQRS, event sourcing, repository pattern, use cases, onion architecture, outbox pattern, aggregate root, anti-corruption layer. Use when working with domain models, aggregates, repositories, or bounded contexts. Clean Architecture + DDD + Hexagonal patterns for backend services, language-agnostic (Go, Rust, Python, TypeScript, Java, C#).
 metadata:
@@ -145,13 +145,13 @@ src/
 
 | File | Purpose |
 |------|---------|
-| [references/LAYERS.md](references/LAYERS.md) | Complete layer specifications |
-| [references/DDD-STRATEGIC.md](references/DDD-STRATEGIC.md) | Bounded contexts, context mapping |
-| [references/DDD-TACTICAL.md](references/DDD-TACTICAL.md) | Entities, value objects, aggregates (pseudocode) |
-| [references/HEXAGONAL.md](references/HEXAGONAL.md) | Ports, adapters, naming |
-| [references/CQRS-EVENTS.md](references/CQRS-EVENTS.md) | Command/query separation, events |
-| [references/TESTING.md](references/TESTING.md) | Unit, integration, architecture tests |
-| [references/CHEATSHEET.md](references/CHEATSHEET.md) | Quick decision guide |
+| [references/layers.md](references/layers.md) | Complete layer specifications |
+| [references/ddd-strategic.md](references/ddd-strategic.md) | Bounded contexts, context mapping |
+| [references/ddd-tactical.md](references/ddd-tactical.md) | Entities, value objects, aggregates (pseudocode) |
+| [references/hexagonal.md](references/hexagonal.md) | Ports, adapters, naming |
+| [references/cqrs-events.md](references/cqrs-events.md) | Command/query separation, events |
+| [references/testing.md](references/testing.md) | Unit, integration, architecture tests |
+| [references/cheatsheet.md](references/cheatsheet.md) | Quick decision guide |
 
 ## Sources
 
