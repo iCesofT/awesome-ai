@@ -10,7 +10,7 @@ A curated collection of AI agents and skills for the full software development l
 |---|---|---|
 | Agents | 13 | Role-based AI agents for specialized engineering tasks |
 | Agent Skills | 19 | Focused reference patterns used inside agents |
-| Lifecycle Skills | 58 | Phase-organized skills from planning to deployment |
+| Lifecycle Skills | 59 | Phase-organized skills from planning to deployment |
 
 ---
 
@@ -110,7 +110,7 @@ Focused reference guides packaged inside the `agents/skills/` directory for use 
 
 ## Lifecycle Skills
 
-The `skills/` directory contains 58 skills organized by development phase. Each skill is a standalone folder with its own prompt definition, reference material, and examples.
+The `skills/` directory contains 59 skills organized by development phase. Each skill is a standalone folder with its own prompt definition, reference material, and examples.
 
 ### Phase 01 — Planning & Specification
 
@@ -151,6 +151,7 @@ The `skills/` directory contains 58 skills organized by development phase. Each 
 | `03-development-error-handling-patterns` | Implement robust error handling |
 | `03-development-git-commit` | Manage git workflow and branching |
 | `03-development-java-development` | Java best practices and idiomatic code |
+| `03-development-java-sensitive-log-auditor` | Audit Java logs and exception messages to prevent sensitive data leakage |
 | `03-development-jpa-patterns` | JPA and Hibernate patterns and optimization |
 | `03-development-logging-patterns` | Implement structured and contextual logging |
 | `03-development-maven-dependency-audit` | Audit and update Maven dependencies |
