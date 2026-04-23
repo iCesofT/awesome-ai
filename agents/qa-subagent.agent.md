@@ -2,6 +2,15 @@
 name: 'QA'
 description: 'Meticulous QA subagent for test planning, bug hunting, edge-case analysis, and implementation verification.'
 tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'todo']
+skills:
+  - 04-testing-test-quality
+  - 04-testing-spring-boot-testing
+  - 04-testing-bdd-patterns
+  - 04-testing-e2e-testing
+  - 04-testing-test-driven-development
+  - 03-development-debugging-and-error-recovery
+  - 02-design-code-review-and-quality
+  - 05-deployment-security-audit
 ---
 
 ## Identity

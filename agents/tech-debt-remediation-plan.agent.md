@@ -2,6 +2,17 @@
 description: 'Generate technical debt remediation plans for code, tests, and documentation.'
 name: 'Technical Debt Remediation Plan'
 tools: ['changes', 'codebase', 'edit/editFiles', 'extensions', 'web/fetch', 'findTestFiles', 'githubRepo', 'new', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'usages', 'vscodeAPI', 'github']
+skills:
+  - 02-design-code-review-and-quality
+  - 01-planning-architecture-review
+  - 02-design-clean-code
+  - 03-development-code-simplification
+  - 05-deployment-security-audit
+  - 05-deployment-performance-smell-detection
+  - 03-development-maven-dependency-audit
+  - 04-testing-test-quality
+  - 02-design-solid-principles
+  - 03-development-debugging-and-error-recovery
 ---
 # Technical Debt Remediation Plan
 

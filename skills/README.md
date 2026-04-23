@@ -2,25 +2,28 @@
 
 Estructura unificada y organizada de skills por fases del ciclo de vida de desarrollo de software.
 
-Este directorio contiene **58 skills** consolidados y revisados, organizados en 5 fases del ciclo de vida de desarrollo de software, con énfasis en arquitectura limpia, DDD, Spring Boot y buenas prácticas de ingeniería.
+Este directorio contiene **65 skills** consolidados y revisados, organizados en 5 fases del ciclo de vida de desarrollo de software, con énfasis en arquitectura limpia, DDD, Spring Boot y buenas prácticas de ingeniería.
 
 ## 🔄 Fases del Ciclo de Vida
 
 ### [01-planning](01-planning/) - Fase de Planificación y Especificación
-**9 skills** - Especificación de requisitos, arquitectura y diseño de APIs
+**12 skills** - Especificación de requisitos, arquitectura y diseño de APIs
 
 - `architecture-adrs/` - Registro de Decisiones Arquitectónicas
+- `architecture-designer/` - ✨ Diseñador de Arquitectura de Sistemas
 - `architecture-patterns/` - Patrones de Arquitectura
 - `architecture-review/` - Revisión Arquitectónica
+- `backend-architect/` - ✨ Arquitecto Backend Especializado
 - `backend-patterns/` - Patrones de Backend
 - `create-specification/` - Creación de Especificaciones
 - `ddd-domain-expert/` - Domain-Driven Design: Experto en Dominio
 - `ddd-strategic-design/` - Domain-Driven Design: Diseño Estratégico
+- `microservices-patterns/` - ✨ Patrones de Microservicios
 - `openapi-spec-generation/` - Generación de Especificaciones OpenAPI
 - `spec-driven-development/` - Desarrollo Dirigido por Especificaciones
 
 ### [02-design](02-design/) - Fase de Diseño y Arquitectura
-**8 skills** - Principios de diseño, patrones y estándares de código
+**9 skills** - Principios de diseño, patrones y estándares de código
 
 - `api-design/` - Diseño de APIs REST
 - `clean-code/` - Código Limpio
@@ -29,25 +32,30 @@ Este directorio contiene **58 skills** consolidados y revisados, organizados en 
 - `coding-standards/` - Estándares de Codificación
 - `design-patterns/` - Patrones de Diseño
 - `grpc-design/` - Diseño de gRPC
+- `java-architect/` - ✨ Arquitecto Java Enterprise
 - `solid-principles/` - Principios SOLID
 
 ### [03-development](03-development/) - Fase de Desarrollo e Implementación
-**14 skills** - Implementación, patrones y herramientas de desarrollo
+**17 skills** - Implementación, patrones y herramientas de desarrollo
 
 - `caching-patterns/` - Patrones de Caché
 - `code-simplification/` - Simplificación de Código
 - `concurrency-review/` - Revisión de Concurrencia
 - `conventional-commit/` - Commits Convencionales
+- `database-optimizer/` - ✨ Optimizador de Bases de Datos
 - `debugging-and-error-recovery/` - Debugging y Recuperación de Errores
 - `error-handling-patterns/` - Patrones de Manejo de Errores
 - `git-commit/` - Workflow de Git y Commits
 - `java-development/` - Desarrollo en Java
+- `java-sensitive-log-auditor/` - Auditor de Logs Sensibles Java
 - `jpa-patterns/` - Patrones JPA/Hibernate
 - `logging-patterns/` - Patrones de Logging
 - `maven-dependency-audit/` - Auditoría de Dependencias Maven
 - `spring-boot/` - Desarrollo con Spring Boot
+- `spring-boot-engineer/` - ✨ Ingeniero Spring Boot Especializado
 - `sql-code-review/` - Revisión de Código SQL
 - `sql-optimization/` - Optimización SQL
+- `sql-optimization-patterns/` - ✨ Patrones Avanzados de Optimización SQL
 
 ### [04-testing](04-testing/) - Fase de Pruebas y Validación
 **6 skills** - Estrategias de testing y validación

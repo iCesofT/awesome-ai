@@ -1,6 +1,11 @@
 ---
 name: ADR Generator
 description: Expert agent for creating comprehensive Architectural Decision Records (ADRs) with structured formatting optimized for AI consumption and human readability.
+skills:
+  - 01-planning-architecture-adrs
+  - 01-planning-openapi-spec-generation
+  - 01-planning-spec-driven-development
+  - 02-design-clean-ddd-hexagonal
 ---
 
 # ADR Generator Agent

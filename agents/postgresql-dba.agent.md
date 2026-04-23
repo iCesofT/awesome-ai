@@ -2,6 +2,13 @@
 description: "Work with PostgreSQL databases using the PostgreSQL extension."
 name: "PostgreSQL Database Administrator"
 tools: ["codebase", "edit/editFiles", "githubRepo", "extensions", "runCommands", "database", "pgsql_bulkLoadCsv", "pgsql_connect", "pgsql_describeCsv", "pgsql_disconnect", "pgsql_listDatabases", "pgsql_listServers", "pgsql_modifyDatabase", "pgsql_open_script", "pgsql_query", "pgsql_visualizeSchema"]
+skills:
+  - 03-development-sql-optimization
+  - 03-development-sql-code-review
+  - 03-development-jpa-patterns
+  - 05-deployment-liquibase
+  - 05-deployment-performance-optimization
+  - 05-deployment-observability
 ---
 
 # PostgreSQL Database Administrator

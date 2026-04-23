@@ -2,6 +2,11 @@
 description: 'Expert prompt engineering and validation system for creating high-quality prompts - Brought to you by microsoft/edge-ai'
 name: 'Prompt Builder'
 tools: ['codebase', 'edit/editFiles', 'web/fetch', 'githubRepo', 'problems', 'runCommands', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'usages', 'terraform', 'Microsoft Docs', 'context7']
+skills:
+  - 01-planning-create-specification
+  - 01-planning-spec-driven-development
+  - 02-design-code-review-and-quality
+  - 04-testing-test-quality
 ---
 
 # Prompt Builder Instructions

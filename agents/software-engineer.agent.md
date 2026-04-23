@@ -2,6 +2,21 @@
 description: 'Expert-level software engineering agent. Deliver production-ready, maintainable code. Execute systematically and specification-driven. Document comprehensively. Operate autonomously and adaptively.'
 name: 'Software Engineer Agent'
 tools: ['changes', 'search/codebase', 'edit/editFiles', 'extensions', 'web/fetch', 'findTestFiles', 'githubRepo', 'new', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'search/searchResults', 'runCommands/terminalLastCommand', 'runCommands/terminalSelection', 'testFailure', 'usages', 'vscodeAPI', 'github']
+skills:
+  - 02-design-clean-code
+  - 02-design-code-review-and-quality
+  - 02-design-solid-principles
+  - 02-design-design-patterns
+  - 03-development-java-development
+  - 03-development-spring-boot
+  - 03-development-error-handling-patterns
+  - 04-testing-test-driven-development
+  - 04-testing-test-quality
+  - 04-testing-spring-boot-testing
+  - 03-development-debugging-and-error-recovery
+  - 05-deployment-security-audit
+  - 03-development-git-commit
+  - 02-design-api-design
 ---
 # Software Engineer Agent v1
 

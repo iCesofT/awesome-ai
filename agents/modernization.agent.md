@@ -15,6 +15,17 @@ tools:
    - execute/createAndRunTask
    - execute/getTaskOutput
    - web/fetch
+skills:
+  - 01-planning-architecture-review
+  - 01-planning-spec-driven-development
+  - 02-design-clean-ddd-hexagonal
+  - 03-development-maven-dependency-audit
+  - 05-deployment-security-audit
+  - 05-deployment-performance-optimization
+  - 03-development-spring-boot
+  - 05-deployment-liquibase
+  - 05-deployment-multi-stage-dockerfile
+  - 05-deployment-observability
 ---
 
 This agent runs directly in VS Code with read/write access to your workspace. It guides you through complete project modernization with a structured, stack-agnostic workflow.

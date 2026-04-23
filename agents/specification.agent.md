@@ -2,6 +2,13 @@
 description: 'Generate or update specification documents for new or existing functionality.'
 name: 'Specification'
 tools: ['changes', 'search/codebase', 'edit/editFiles', 'extensions', 'web/fetch', 'findTestFiles', 'githubRepo', 'new', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'search/searchResults', 'runCommands/terminalLastCommand', 'runCommands/terminalSelection', 'testFailure', 'usages', 'vscodeAPI', 'microsoft.docs.mcp', 'github']
+skills:
+  - 01-planning-create-specification
+  - 01-planning-spec-driven-development
+  - 01-planning-openapi-spec-generation
+  - 01-planning-architecture-adrs
+  - 02-design-api-design
+  - 02-design-clean-ddd-hexagonal
 ---
 # Specification mode instructions
 

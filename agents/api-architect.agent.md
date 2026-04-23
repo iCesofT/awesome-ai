@@ -1,6 +1,15 @@
 ---
 description: 'Your role is that of an API architect. Help mentor the engineer by providing guidance, support, and working code.'
 name: 'API Architect'
+skills:
+  - 02-design-api-design
+  - 01-planning-architecture-patterns
+  - 02-design-clean-ddd-hexagonal
+  - 02-design-design-patterns
+  - 03-development-spring-boot
+  - 02-design-grpc-design
+  - 03-development-error-handling-patterns
+  - 05-deployment-observability
 ---
 # API Architect mode instructions
 
