@@ -8,9 +8,8 @@ A curated collection of AI agents and skills for the full software development l
 
 | Category | Count | Description |
 |---|---|---|
-| Agents | 13 | Role-based AI agents for specialized engineering tasks |
-| Agent Skills | 19 | Focused reference patterns used inside agents |
-| Lifecycle Skills | 59 | Phase-organized skills from planning to deployment |
+| Agents | 12 | Role-based AI agents for specialized engineering tasks |
+| Lifecycle Skills | 52 | Phase-organized skills from planning to deployment |
 
 ---
 
@@ -63,8 +62,8 @@ Analyzes and restructures existing prompts. Evaluates simplicity, chain-of-thoug
 
 Operates under the philosophy "assume it's broken until proven otherwise." Produces a test plan covering happy path, boundary, negative, error handling, concurrency, and security cases. Runs exploratory testing and delivers a structured findings report.
 
-### Software Engineer Agent v1
-**File:** `agents/software-engineer-agent-v1.agent.md`
+### Software Engineer Agent
+**File:** `agents/software-engineer.agent.md`
 
 Delivers production-ready code with zero-confirmation autonomous execution. Follows the testing pyramid (many unit → focused integration → few E2E). Process: Analyze → Design → Implement → Validate → Reflect → Handoff. Enforces SOLID, clean code, and comprehensive quality gates throughout.
 
@@ -80,49 +79,24 @@ Produces a comprehensive technical debt analysis and remediation plan (analysis 
 
 ---
 
-## Agent Skills
-
-Focused reference guides packaged inside the `agents/skills/` directory for use within agent prompts.
-
-| Skill | Purpose |
-|---|---|
-| `api-design-principles` | REST and GraphQL API design patterns |
-| `architecture-designer` | High-level system architecture and ADR creation |
-| `architecture-patterns` | Clean Architecture, Hexagonal Architecture, DDD |
-| `backend-architect` | Scalable API design, microservices, distributed systems |
-| `bdd-patterns` | Behavior-driven development with Given-When-Then |
-| `clean-ddd-hexagonal` | Combined DDD + Clean Architecture + Hexagonal tactical guidance |
-| `conventional-commit` | Structured commit message format (type, scope, description) |
-| `database-optimizer` | Query optimization, index strategies, execution plan analysis (PostgreSQL/MySQL) |
-| `ddd-domain-expert` | Strategic and tactical DDD for complex domains |
-| `ddd-strategic-design` | Bounded contexts, subdomains, ubiquitous language |
-| `error-handling-patterns` | Exception handling, Result types, error propagation, graceful degradation |
-| `java-architect` | Enterprise Java with Spring Boot 3.x, microservices, reactive programming |
-| `java-springboot` | Spring Boot best practices |
-| `microservices-patterns` | Service boundaries, event-driven communication, resilience patterns |
-| `multi-stage-dockerfile` | Optimized Docker multi-stage builds |
-| `openapi-spec-generation` | OpenAPI 3.1 spec generation and validation |
-| `sql-optimization` | SQL performance tuning across MySQL, PostgreSQL, SQL Server, Oracle |
-| `sql-optimization-patterns` | Query optimization, indexing, EXPLAIN analysis |
-| `spring-boot-engineer` | Spring Boot 3.x controllers, security, JPA, WebFlux |
-
----
-
 ## Lifecycle Skills
 
-The `skills/` directory contains 59 skills organized by development phase. Each skill is a standalone folder with its own prompt definition, reference material, and examples.
+The `skills/` directory contains 52 skills organized by development phase. Each skill is a standalone folder with its own prompt definition, reference material, and examples.
 
 ### Phase 01 — Planning & Specification
 
 | Skill | Description |
 |---|---|
 | `01-planning-architecture-adrs` | Create and maintain Architectural Decision Records |
+| `01-planning-architecture-designer` | High-level system architecture and design guidance |
 | `01-planning-architecture-patterns` | Select and apply architectural patterns |
 | `01-planning-architecture-review` | Review existing architecture for gaps and risks |
+| `01-planning-backend-architect` | Backend architecture design and scalability patterns |
 | `01-planning-backend-patterns` | Identify appropriate backend patterns for requirements |
 | `01-planning-create-specification` | Author structured functional specifications |
 | `01-planning-ddd-domain-expert` | Apply DDD principles to model a domain |
 | `01-planning-ddd-strategic-design` | Define bounded contexts and subdomains |
+| `01-planning-microservices-patterns` | Design microservices architecture and communication patterns |
 | `01-planning-openapi-spec-generation` | Generate OpenAPI 3.1 specifications |
 | `01-planning-spec-driven-development` | Drive implementation from a written specification |
 
@@ -137,6 +111,7 @@ The `skills/` directory contains 59 skills organized by development phase. Each 
 | `02-design-coding-standards` | Establish and enforce coding standards |
 | `02-design-design-patterns` | Apply GoF and enterprise design patterns |
 | `02-design-grpc-design` | Design gRPC services and protobuf schemas |
+| `02-design-java-architect` | Enterprise Java architecture patterns and design |
 | `02-design-solid-principles` | Apply SOLID principles to object-oriented code |
 
 ### Phase 03 — Development & Implementation
@@ -156,6 +131,7 @@ The `skills/` directory contains 59 skills organized by development phase. Each 
 | `03-development-logging-patterns` | Implement structured and contextual logging |
 | `03-development-maven-dependency-audit` | Audit and update Maven dependencies |
 | `03-development-spring-boot` | Spring Boot development best practices |
+| `03-development-spring-boot-engineer` | Advanced Spring Boot engineering patterns and practices |
 | `03-development-sql-code-review` | Review SQL for correctness and performance |
 | `03-development-sql-optimization` | Optimize slow SQL queries |
 
@@ -164,7 +140,6 @@ The `skills/` directory contains 59 skills organized by development phase. Each 
 | Skill | Description |
 |---|---|
 | `04-testing-bdd-patterns` | Write BDD scenarios with Given-When-Then |
-| `04-testing-debugging-and-error-recovery` | Debug failing tests and flaky test suites |
 | `04-testing-e2e-testing` | Design and implement end-to-end tests |
 | `04-testing-spring-boot-testing` | Unit and integration testing for Spring Boot |
 | `04-testing-test-driven-development` | Apply red-green-refactor TDD cycle |
@@ -178,7 +153,6 @@ The `skills/` directory contains 59 skills organized by development phase. Each 
 | `05-deployment-deployment-patterns` | Apply blue/green, canary, and rolling deployment patterns |
 | `05-deployment-gdpr-compliant` | Audit code and data flows for GDPR compliance |
 | `05-deployment-liquibase` | Manage database schema migrations with Liquibase |
-| `05-deployment-logging-patterns` | Configure production-grade logging and log aggregation |
 | `05-deployment-multi-stage-dockerfile` | Build optimized multi-stage Docker images |
 | `05-deployment-observability` | Implement metrics, tracing, and alerting |
 | `05-deployment-performance-optimization` | Profile and optimize application performance |
