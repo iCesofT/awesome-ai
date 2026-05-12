@@ -1,8 +1,8 @@
 ---
+name: Context Architect
 description: 'An agent that helps plan and execute multi-file changes by identifying relevant context and dependencies'
 model: 'GPT-5'
 tools: ['codebase', 'terminalCommand']
-name: 'Context Architect'
 skills:
   - 01-planning-architecture-review
   - 01-planning-architecture-patterns

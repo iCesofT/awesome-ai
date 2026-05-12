@@ -1,5 +1,5 @@
 ---
-name: fastapi-expert
+name: FastAPI Expert
 description: |
   FastAPI Python framework specialist. Expert in async Python,
   Pydantic models, and API design. Executes code modifications

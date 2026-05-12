@@ -1,5 +1,5 @@
 ---
-name: python-expert
+name: Python Expert
 description: |
   Python language expert (3.10-3.14). Covers modern typing (PEP 695),
   async patterns, package management (uv, poetry), CLI development (Typer),

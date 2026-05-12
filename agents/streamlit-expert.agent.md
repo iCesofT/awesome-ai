@@ -1,5 +1,5 @@
 ---
-name: streamlit-expert
+name: Streamlit Expert
 description: |
   Streamlit Python web application framework specialist. Expert in
   interactive data apps, session state, caching, layouts, widgets,
