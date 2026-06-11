@@ -9,7 +9,7 @@ A curated collection of AI agents and skills for the full software development l
 | Category | Count | Description |
 |---|---|---|
 | Agents | 12 | Role-based AI agents for specialized engineering tasks |
-| Lifecycle Skills | 52 | Phase-organized skills from planning to deployment |
+| Lifecycle Skills | 53 | Phase-organized skills from planning to deployment |
 
 ---
 
@@ -81,7 +81,7 @@ Produces a comprehensive technical debt analysis and remediation plan (analysis 
 
 ## Lifecycle Skills
 
-The `skills/` directory contains 52 skills organized by development phase. Each skill is a standalone folder with its own prompt definition, reference material, and examples.
+The `skills/` directory contains 53 skills organized by development phase. Each skill is a standalone folder with its own prompt definition, reference material, and examples.
 
 ### Phase 01 — Planning & Specification
 
@@ -134,6 +134,7 @@ The `skills/` directory contains 52 skills organized by development phase. Each 
 | `03-development-spring-boot-engineer` | Advanced Spring Boot engineering patterns and practices |
 | `03-development-sql-code-review` | Review SQL for correctness and performance |
 | `03-development-sql-optimization` | Optimize slow SQL queries |
+| `03-development-xquik-x-data` | Integrate X data workflows with Xquik REST, MCP, and webhooks |
 
 ### Phase 04 — Testing & Validation
 
